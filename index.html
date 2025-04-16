@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootswrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
+    <!-- css style stylesheet -->
+    <link rel="stylesheet" href="">
+    <title>javscript chapter 1-7</title>
+    <style>
+       .col {
+        border: 1px solid rgb(107, 91, 91);
+        border-radius: 2px;
+       }
+      .statment-btn {
+        transition: 0.25s;
+        border: 1px solid black;
+      }
+      .statment-btn:hover {
+        background: #000;
+        color: aliceblue;
+      }
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Assignment</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">chapter 1-7</a>
+                  </li>
+              
+                  </li>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+        <div class="container-fluid text-center p-5 ">
+            <h5>chapter 1-7 | Intriduction to javaScript | Data Types | Alert | Arthmetice Operators</h5>
+            <hr class="mb-4">
+            <div class="container">
+                <div class="col p-4 btns">
+                  
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="alert-name">Alert Name</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="alert-num">Alert Number</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="veriabel">Show Veriable Name</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="camelcase">Show CamelCase Examples</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="sum2-num">Sum 2 Numbers</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="substruct-num">Substruct 2 Number</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="multiply-num">Multiply Numbers</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="divide">Divide Numbers</button>
+                        <button type="button" class="btn btn-danger mb-2 fs-6" id="caluclate">Caluclate some Numbers</button>
+                    
+                    
+                </div>
+            </div>
+            <div class="container mt-5 p-4">
+            <div class="row mt-3 ">
+              <h3>Original Statment</h3>
+              <div class="col py-4" id="statment"></div>
+            </div>
+            <button class="btn mt-3 statment-btn" id="clear-st">Clear Statment</button>
+
+            </div>
+            <div class="container mt-5 p-4">
+            <div class="row mt-3 ">
+              <h3>Output/Rezult</h3>
+              <div class="col py-4" id="output"></div>
+            </div>
+            <button class="btn mt-3 statment-btn" id="clear-output">Clear Statment</button>
+
+            </div>
+
+        </div>
+      
+    </main>
+    
+    <footer>
+      <div class="container-fluid bg-dark ">
+        
+            <h5 class="bg-dark text-center text-light p-2">
+              CopyRight!
+            </h5>
+        
+      </div>
+    </footer>
+    
+    <!-- javscript bootswrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <!-- custom script files -->
+    <script src="files/script.js"></script>
+
+</body>
+</html>
